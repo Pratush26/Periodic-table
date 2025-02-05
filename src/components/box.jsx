@@ -8,6 +8,7 @@ const box = ({ data }) => {
       style={{
         gridRow: data.gridRow,
         gridColumn: data.gridColumn,
+        margin: data.m,
         borderColor: data.border, // Initial border color
       }}
       onMouseEnter={(e) => {

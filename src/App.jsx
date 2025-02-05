@@ -7,6 +7,7 @@ import Box from './components/box'
 function App() {
   const data = [
     { sign: "H", fname: "Hydrogen", z: "1", a: "1", bt: "235", st: "225", en: "2.1", border: "rgb(94, 173, 28)"},
+    { sign: "He", fname: "Helium", z: "2", a: "4", bt: "272", st: "258", en: "0.98", border: "rgb(42, 200, 227)", gridColumn: "4 / span 2",gridRow: "span 3",m: "10px", },
     { sign: "He", fname: "Helium", z: "2", a: "4", bt: "272", st: "258", en: "0.98", border: "rgb(42, 200, 227)", gridColumn: "18" },
     { sign: "Li", fname: "Lithium", z: "3", a: "7", bt: "453", st: "336", en: "1.0", border: "rgb(238, 52, 29)"},
     { sign: "Be", fname: "Beryllium", z: "4", a: "9", bt: "1278", st: "1278", en: "1.57", border: "rgb(255, 127, 36)" },
@@ -149,3 +150,4 @@ function App() {
 }
 
 export default App
+//responsive width 950px 
